@@ -1,8 +1,15 @@
 package Date;
+import java.util.ArrayList;
+import java.util.List;
+
+// importação modulo conta:
+import Servicos.ContasBancarias;
 
 public class Clients {
 	private String name;
 	private String cpf;
+	private List<ContasBancarias> Contas = new ArrayList();
+	
 	
 	public Clients (String name, String cpf) {
 		this.name = name;
